@@ -116,9 +116,7 @@ TODO: -Want text position fixed vertically with respect to background's pixels *
 
 #social {
     display: inline-block;
-    margin-top: 50px;
-    margin-bottom: 50px;
-
+    margin-top: 10;
 }
 
 #social i {
