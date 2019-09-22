@@ -1,0 +1,142 @@
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.centered {
+    text-align: center
+}
+
+.mt {
+    margin-top: 80px;
+}
+
+.mb {
+    margin-bottom: 180px;
+}
+
+/* ==========================================================================
+   General styles
+   ========================================================================== */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: #fff;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
+    color: #1abc9c;
+}
+
+.navbar-default {
+    border-color: transparent;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #1abc9c;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #1abc9c;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+    border-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background: #666;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#icotext-container {
+    background-position: center center;
+    text-align:center;
+    height:100vh;
+    /* background: #000; 
+TODO: -Want text position fixed vertically with respect to background's pixels */
+    background: url(../img/back.jpg)  center top;
+    padding-top:5%;
+    padding-bottom:10%;
+}
+
+#icotext-wrap {
+    background: url(../img/back.jpg)  center top;
+    padding: 0px;
+    background-attachment: relative;
+    background-position: center center;
+    width: 100%;
+    min-height: 100%;
+}
+
+#icotext-container h1 {
+    color:#ffffff;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 4rem;
+
+}
+
+#icotext-container h4 {
+    font-weight: 100;
+    color: #ffffff
+}
+
+
+#social {
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+#social i {
+    font-size: 40px;
+    color: #fff
+}
+
+#social i:hover {
+    color: #1abc9c
+}
+
+#footerwrap {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-color: #2f2f2f;
+}
+
+#footerwrap p {
+    color: #f2f2f2;
+    margin-left: 10px;
+}
